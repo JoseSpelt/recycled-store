@@ -70,9 +70,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <button type="submit">Entrar</button>
     </form>
 
-    <p class="note">
-      Para la demo: usuario <strong>jspelt</strong>, contraseña <strong>123456</strong> (creado con <code>create_user.php</code>).
-    </p>
   </div>
 </main>
 </body>

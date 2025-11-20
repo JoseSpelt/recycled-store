@@ -50,7 +50,7 @@ $alumno = $result->fetch_assoc();
     <a href="productos_crud.php">Gestión de productos</a>
     <a href="productos_consulta.php">Consulta de productos</a>
     <a href="<?php echo htmlspecialchars($blog_url); ?>" target="_blank">Blog</a>
-    <a href="https://TU-PAGINA-WORDPRESS.wordpress.com" target="_blank">WordPress - Jose Spelt</a>
+    <a href="http://localhost:8000/" target="_blank">WordPress - Jose Spelt</a>
     <a href="logout.php">Salir</a>
   </nav>
 </header>

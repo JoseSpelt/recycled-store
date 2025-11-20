@@ -36,7 +36,7 @@ if (!isset($_SESSION['user'])) {
     <a href="productos_crud.php">Gestión de productos</a>
     <a href="productos_consulta.php">Consulta de productos</a>
     <a href="<?php echo htmlspecialchars($blog_url); ?>" target="_blank">Blog</a>
-    <a href="https://TU-WORDPRESS.wordpress.com" target="_blank">WordPress - Jose Spelt</a>
+    <a href="http://localhost:8000/" target="_blank">WordPress - Jose Spelt</a>
     <a href="logout.php">Salir</a>
   </nav>
 </header>
@@ -84,31 +84,6 @@ if (!isset($_SESSION['user'])) {
       <a href="productos_consulta.php" class="btn small">Ver más</a>
     </div>
   </div>
-</section>
-
-<!-- 🧠 INFO DEL PARCIAL (lo mantenemos para tu rúbrica) -->
-<section class="container">
-  <hr><h2>Detalles del proyecto (según rúbrica)</h2>
-  <section class="cards">
-    <div class="card">
-      <h2>Descripción del proyecto</h2>
-      <p><?php echo nl2br(htmlspecialchars($project_description)); ?></p>
-    </div>
-
-    <div class="card">
-      <h2>Integrantes del grupo</h2>
-      <ul>
-        <?php foreach ($group_members as $m) { echo "<li>" . htmlspecialchars($m) . "</li>"; } ?>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>Funcionalidades propuestas</h2>
-      <ol>
-        <?php foreach ($functionalities as $f) { echo "<li>" . htmlspecialchars($f) . "</li>"; } ?>
-      </ol>
-    </div>
-  </section>
 </section>
 
 <footer class="footer">
